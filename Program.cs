@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace ConsoleApplication
+namespace DotnetCleanApplication
 {
     public class Program
     {
