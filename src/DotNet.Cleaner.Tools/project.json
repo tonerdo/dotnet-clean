@@ -1,6 +1,12 @@
 {
     "version": "1.0.0-*",
+    "title": "DotNet.Cleaner.Tools",
     "description": "A .NET Core CLI extension tool for cleaning projects",
+    "authors": [
+        "Toni Solarin-Sodara"
+    ],
+    "licenseUrl": "https://github.com/tsolarin/dotnet-clean/blob/master/LICENSE",
+    "projectUrl": "https://github.com/tsolarin/dotnet-clean",
     "packOptions": {
         "tags": [
             "dotnet",
