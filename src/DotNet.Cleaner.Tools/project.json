@@ -1,7 +1,15 @@
 {
     "version": "1.0.0-*",
+    "description": "A .NET Core CLI extension tool for cleaning projects",
+    "packOptions": {
+        "tags": [
+            "dotnet",
+            "clean"
+        ]
+    },
     "buildOptions": {
-        "emitEntryPoint": true
+        "emitEntryPoint": true,
+        "outputName": "dotnet-clean"
     },
     "dependencies": {
         "Microsoft.NETCore.App": {
