@@ -1,4 +1,4 @@
-# dotnet-clean [![NuGet version](https://badge.fury.io/nu/dotnet-clean.svg)](https://www.nuget.org/packages/dotnet-clean)
+# dotnet-clean [![NuGet version](https://badge.fury.io/nu/dotnet-clean.svg)](https://www.nuget.org/packages/DotNet.Cleaner.Tools)
 
 A .NET Core CLI extension tool for cleaning projects
 
@@ -6,7 +6,7 @@ A .NET Core CLI extension tool for cleaning projects
 Add as a tool to your project.json
 ```json
 "tools": {
-    "dotnet-clean": "1.0.0-*"
+    "DotNet.Cleaner.Tools": "1.0.0-*"
 }
 ```
 Restore dependencies to install
