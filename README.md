@@ -1,4 +1,4 @@
-# dotnet-clean [![NuGet version](https://badge.fury.io/nu/dotnet-clean.svg)](https://www.nuget.org/packages/DotNet.Cleaner.Tools)
+# dotnet-clean [![NuGet version](https://badge.fury.io/nu/DotNet.Cleaner.Tools.svg)](https://www.nuget.org/packages/DotNet.Cleaner.Tools)
 
 A .NET Core CLI extension tool for cleaning projects
 
@@ -26,7 +26,7 @@ If you have found a bug or if you have a feature request, please report them at 
 
 ## Author
 
-[Toni Solarin-Sodara](https://twitter.com/tonerdo)
+[Toni Solarin-Sodara](https://github.com/tsolarin)
 
 ## License
 
