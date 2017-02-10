@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace DotNet.Cleaner.Tools
@@ -11,11 +12,9 @@ namespace DotNet.Cleaner.Tools
 
             try
             {
-                if (Directory.Exists("./bin"))
-                    Directory.Delete("./bin", true);
-
-                if (Directory.Exists("./obj"))
-                    Directory.Delete("./obj", true);
+                DirSearch(".");
+                foreach (var d in DeletionList)
+                    Directory.Delete(d, true);
 
                 Console.WriteLine("Clean successful");
             }
@@ -24,6 +23,17 @@ namespace DotNet.Cleaner.Tools
                 Console.WriteLine("Error while performing clean operation");
                 Console.WriteLine(ex.Message);
             }
+        }
+
+        private static List<String> DeletionList { get; set; } = new List<string>();
+        private static void DirSearch(string dir)
+        {
+            foreach (var dirName in Directory.GetDirectories(dir))
+            {
+                if (dirName.EndsWith("bin") || dirName.EndsWith("obj"))
+                    DeletionList.Add(dirName);
+                DirSearch(dirName);
+            }            
         }
     }
 }
