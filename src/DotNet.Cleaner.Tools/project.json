@@ -3,7 +3,8 @@
     "title": "DotNet.Cleaner.Tools",
     "description": "A .NET Core CLI extension tool for cleaning projects",
     "authors": [
-        "Toni Solarin-Sodara"
+        "Toni Solarin-Sodara",
+        "Nemanja Milosevic"
     ],
     "packOptions": {
         "tags": [
@@ -20,7 +21,7 @@
     "dependencies": {
         "Microsoft.NETCore.App": {
             "type": "platform",
-            "version": "1.0.0"
+            "version": "1.1.0"
         }
     },
     "frameworks": {
